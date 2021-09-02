@@ -37,7 +37,7 @@ class request extends Component{
      const {Header,HeaderCell,Row,Body} = Table;
      return(
         <Layout>
-         <Link route={`${this.props.address}/request/new`}>
+         <Link route={`/campaign/${this.props.address}/request/new`}>
          <a>
              <Button primary floated="right" style={{marginBottom:"30px",marginTop:"20px"}}>
              <i class="eye dropper icon" 
